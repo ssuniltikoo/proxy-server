@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: proxy-server # this is just a proxy server which is calling fake api store
+  integration:
+    management:
+      default-logging-enabled: on
+server:
+  port: 8080
